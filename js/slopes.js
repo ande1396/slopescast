@@ -17,6 +17,8 @@ $(document).ready(function() {
 
                console.log(month);
                var months=['Jan','Feb','Mar','Apr','May','Jun','Jul','Aug','Sep','Oct','Nov','Dec'];
+
+// =============== Use switch next time ===================== // 
                
                if(month == 01)
                {
@@ -34,38 +36,39 @@ $(document).ready(function() {
                {
                     new_month = months[3];
                }
-               // else if(month == 05)
-               // {
-               //      new_month = months[4];
-               // }
-               // else if(month == 06)
-               // {
-               //      new_month = months[5];
-               // }
-               // else if(month == 07)
-               // {
-               //      new_month = months[6];
-               // }
-               // else if(month == 08)
-               // {
-               //      new_month = months[7];
-               // }
-               // else if(month == 09)
-               // {
-               //      new_month = months[8];
-               // }
-               // else if(month == 10)
-               // {
-               //      new_month = months[9];
-               // }
-               // else if(month == 11)
-               // {
-               //      new_month = months[10];
-               // }
-               // else
-               // {
-               //      new_month == months[11];
-               // }
+               else if(month == 05)
+               {
+                    new_month = months[4];
+               }
+               else if(month == 06)
+               {
+                    new_month = months[5];
+               }
+               else if(month == 07)
+               {
+                    new_month = months[6];
+               }
+               else if(month == 08)
+               {
+                    new_month = months[7];
+               }
+               else if(month == 09)
+               {
+                    new_month = months[8];
+               }
+               else if(month == 10)
+               {
+                    new_month = months[9];
+               }
+               else if(month == 11)
+               {
+                    new_month = months[10];
+               }
+               else
+               {
+                    new_month == months[11];
+               }
+
                console.log(new_month);
             
                var dates = new_month + "," + day;
