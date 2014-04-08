@@ -17,7 +17,7 @@ $(document).ready(function() {
                var day = date.split("-")[2];
 
                // console.log(month);
-               // var months=['Jan','Feb','Mar','Apr','May','Jun','Jul','Aug','Sep','Oct','Nov','Dec'];
+               
                var months = {
                     '01':"Jan",
                     '02':"Feb",
@@ -32,23 +32,9 @@ $(document).ready(function() {
                     '11': 'Nov',
                     '12': 'Dec'
                };
-               // console.log(months);
                 var month = month.toString();
                // console.log(month);
           
-// =============== Use switch next time ===================== // 
-              
-               // for (var i = 0; i < months.length; i++) {
-               //      console.log(months[i]);
-               // }
-
-               // for (var i in months) {
-               //       console.log(months[i]);
-               //      if (months[i] == month) {
-               //           console.log(months[i]);
-               //      }
-               // }
-
                for (key in months) {
                     if (months.hasOwnProperty(key)) {
                          // console.log(key +" " + months[key]);
@@ -58,7 +44,8 @@ $(document).ready(function() {
                          }
                     }
                }
-
+// ======= =========================   old way below ================= //
+// var months=['Jan','Feb','Mar','Apr','May','Jun','Jul','Aug','Sep','Oct','Nov','Dec'];
 
                // if(month == 01)
                // {
@@ -108,7 +95,7 @@ $(document).ready(function() {
                // {
                //      new_month == months[11];
                // }
-
+//=============================================================================
                   
                var dates = new_month + "," + day;
                // var date_n = Date.parse(date).toString("MMMM yyyy");
