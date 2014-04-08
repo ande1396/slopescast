@@ -109,7 +109,7 @@ $(document).ready(function() {
                //      new_month == months[11];
                // }
 
-               // console.log(new_month);     
+                  
                var dates = new_month + "," + day;
                // var date_n = Date.parse(date).toString("MMMM yyyy");
                // console.log(dates);
