@@ -4,6 +4,10 @@ $(document).ready(function() {
 
           $.get($(this).attr('action')+"?callback=?", $(this).serialize(), function(weather)
           {
+          // $.get('http://api.worldweatheronline.com/free/v1/weather.ashx/?json'&'callback=?', function(weather))
+          
+
+               // console.log(weather);
                var sunny = "<img src='images/w-sun.jpg'>";
 
 //================================================================================
